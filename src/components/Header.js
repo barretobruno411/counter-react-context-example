@@ -4,7 +4,7 @@ import "./Header.css"
 
 const Header = () => {
 
-  const [conter, setConter] = useContext(CreatedContext)// passamos o createdContext como inicializador do estado
+  const [conter] = useContext(CreatedContext)// passamos o createdContext como inicializador do estado
 
   return (
     <header className='header'>
