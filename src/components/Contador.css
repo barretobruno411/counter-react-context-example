@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh
+}
+
+.button{
+    width: 100px;
+    margin-left: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.plus{
+    background-color: green;
+}
+
+.less{
+    background-color: red;
+}
